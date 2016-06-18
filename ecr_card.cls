@@ -42,16 +42,17 @@
 \renewcommand{\ticketdefault}{}
 % now what do you like to put in your ticket front part:
 \newcommand{\vcardfront}[9]{\ticket{%
-	\put(40,43){\includegraphics[height=6mm]{hwu.eps}}
-	\put(55,43){\includegraphics[height=6mm]{uoe.eps}}
-	\put(4,4){\psbarcode[linecolor=cdt_blue]{MECARD:N:#7,#6;EMAIL:#5;URL:#8;TEL:#9;}{eclevel=L width=0.669291 height=0.669291}{qrcode}}
-	\put(4,24){\color{cdt_blue}\Large \textbf{#1 #2} \scriptsize #3}
-	\put(22,19){\color{cdt_blue}\scriptsize EPSRC Centre for Doctoral Training in}
-	\put(22,16.5){\color{cdt_blue}\scriptsize Robotics and Autonomous Systems}
-	\put(22,14){\color{cdt_blue}\scriptsize Edinburgh Centre for Robotics}
-	\put(22,9){\color{cdt_blue}\scriptsize #4}
-	\put(22,6.5){\color{cdt_blue}\scriptsize #5}
-	\put(22,4){\color{cdt_blue}\scriptsize \textbf{www.edinburgh-robotics.org}}
+			\put(62,31){\includegraphics[height=18mm]{ecr_simple.eps}}
+			\put(4,43){\includegraphics[height=6mm]{hwu.eps}}
+			\put(18,43){\includegraphics[height=6mm]{uoe.eps}}
+			\put(4,4){\psbarcode[linecolor=cdt_blue]{MECARD:N:#7,#6;EMAIL:#5;URL:#8;TEL:#9;}{eclevel=L width=0.669291 height=0.669291}{qrcode}}
+			\put(4,24){\color{cdt_blue}\Large \textbf{#1 #2} \scriptsize #3}
+			%\put(22,19){\color{cdt_blue}\scriptsize EPSRC Centre for Doctoral Training in}
+			%\put(22,16.5){\color{cdt_blue}\scriptsize Robotics and Autonomous Systems}
+			%\put(22,14){\color{cdt_blue}\scriptsize Edinburgh Centre for Robotics}
+			\put(22,9){\color{cdt_blue}\scriptsize #4}
+			\put(22,6.5){\color{cdt_blue}\scriptsize #5}
+			\put(22,4){\color{cdt_blue}\scriptsize \textbf{www.edinburgh-robotics.org}}
 }}
 % Back part of the card
 \newcommand{\vcardback}[0]{\ticket{%
