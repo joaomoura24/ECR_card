@@ -78,7 +78,7 @@
 		\put(0,0){\line(0,1){31}}
 		\end{picture}
 	}
-	\put(32,17){\includegraphics[height=19mm]{uoe2.eps}}
+	\put(32,17){\includegraphics[height=19mm]{uoe.eps}}
 	\put(59,21){\includegraphics[height=11mm]{hwu.eps}}
 }}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
