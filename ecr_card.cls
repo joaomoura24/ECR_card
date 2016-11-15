@@ -75,7 +75,7 @@
 	\put(4,16){\includegraphics[height=23mm]{ecr.eps}}
 	\put(28,12){
 		\begin{picture}(1,1)
-		\put(0,0){\line(0,1){31}}
+			\put(0,0){\color{cdt_grey}\line(0,1){31}}
 		\end{picture}
 	}
 	\put(32,17){\includegraphics[height=19mm]{uoe.eps}}
