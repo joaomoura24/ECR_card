@@ -3,7 +3,7 @@
 #
 # Author: Joao Moura
 # Email: jmm7@hw.ac.uk
-# Last Modified at 01/06/2016
+# Last Modified at 29/01/2020
 #
 #################################################################
 #################################################################
@@ -14,7 +14,7 @@ TARGET=$(FILE_TEX:.tex=)
 #################################################################
 
 #################################################################
-# Rule that runs whether the make is called or the target file is outdated.
+# Rule that runs when the make is called
 FORCE: $(FILE_TEX)
 	latex $(FILE_TEX)
 	dvips -o $(TARGET).ps $(TARGET).dvi

@@ -5,7 +5,7 @@
 % Adapted from: http://rainnic.altervista.org/content/template-business-card-using-latex
 %
 % Created at: 01/06/2016
-% Last modified at: 21/07/2016
+% Last modified at: 29/01/2020
 % By: Joao Moura
 % Email: jmm7@hw.ac.uk
 %
