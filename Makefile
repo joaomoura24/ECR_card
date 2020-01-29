@@ -15,7 +15,7 @@ TARGET=$(FILE_TEX:.tex=)
 
 #################################################################
 # Rule that runs whether the make is called or the target file is outdated.
-$(TARGET).pdf: $(FILE_TEX)
+FORCE: $(FILE_TEX)
 	latex $(FILE_TEX)
 	dvips -o $(TARGET).ps $(TARGET).dvi
 	ps2pdf $(TARGET).ps
